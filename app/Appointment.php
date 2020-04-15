@@ -13,11 +13,9 @@ class Appointment extends Model
     public $table = 'appointments';
 
     protected $dates = [
-        'start_time',
         'created_at',
         'updated_at',
         'deleted_at',
-        'finish_time',
     ];
 
     protected $fillable = [

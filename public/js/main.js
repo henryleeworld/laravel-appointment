@@ -11,18 +11,18 @@ $(document).ready(function () {
     );
   }
 
-  moment.updateLocale('en', {
+  moment.updateLocale('zh-tw', {
     week: {dow: 1} // Monday is the first day of the week
   })
 
   $('.date').datetimepicker({
     format: 'YYYY-MM-DD',
-    locale: 'en'
+    locale: 'zh-tw'
   })
 
   $('.datetime').datetimepicker({
     format: 'YYYY-MM-DD HH:mm',
-    locale: 'en',
+    locale: 'zh-tw',
     sideBySide: true,
     stepping: 15
   })
