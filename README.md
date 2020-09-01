@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/MVtLAY1.png)
+![](https://i.imgur.com/xcJNN1x.png)
 > 進行所有員工的時程管理
 
-![](https://i.imgur.com/GvgFdRt.png)
+![](https://i.imgur.com/EZim9zZ.png)
 > 日曆能隨時隨地記下預約
