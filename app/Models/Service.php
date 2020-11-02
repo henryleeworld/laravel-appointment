@@ -1,15 +1,16 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Client extends Model
+class Service extends Model
 {
-    use SoftDeletes;
+    use HasFactory, SoftDeletes;
 
-    public $table = 'clients';
+    public $table = 'services';
 
     protected $dates = [
         'created_at',
@@ -19,15 +20,19 @@ class Client extends Model
 
     protected $fillable = [
         'name',
-        'phone',
-        'email',
+        'price',
         'created_at',
         'updated_at',
         'deleted_at',
     ];
 
+    public function employees()
+    {
+        return $this->belongsToMany(Employee::class);
+    }
+
     public function appointments()
     {
-        return $this->hasMany(Appointment::class, 'client_id', 'id');
+        return $this->belongsToMany(Appointment::class);
     }
 }

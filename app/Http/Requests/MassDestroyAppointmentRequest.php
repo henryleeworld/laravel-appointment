@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Appointment;
+use App\Models\Appointment;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;

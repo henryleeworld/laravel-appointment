@@ -1,8 +1,11 @@
 <?php
 
+namespace Database\Seeders;
+
+use App\Models\Service;
 use Illuminate\Database\Seeder;
 
-class AppointmentsTableSeeder extends Seeder
+class ServicesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +14,6 @@ class AppointmentsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Appointment::class, 10)->create();
+        Service::factory()->times(10)->create();
     }
 }
