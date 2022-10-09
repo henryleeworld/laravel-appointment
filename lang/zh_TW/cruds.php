@@ -115,7 +115,7 @@ return [
             'id_helper'         => '',
             'name'              => '姓名',
             'name_helper'       => '',
-            'phone'             => '照片',
+            'phone'             => '電話',
             'phone_helper'      => '',
             'email'             => '電子郵件',
             'email_helper'      => '',

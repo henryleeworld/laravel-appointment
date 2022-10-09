@@ -11,8 +11,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet" />
-    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/select/1.3.0/css/select.dataTables.min.css" rel="stylesheet" />
     <link href="https://unpkg.com/@coreui/coreui@3.2/dist/css/coreui.min.css" rel="stylesheet" />
@@ -95,8 +95,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/perfect-scrollbar.min.js"></script>
     <script src="https://unpkg.com/@coreui/coreui@3.2/dist/js/coreui.min.js"></script>
     <script src="https://unpkg.com/@coreui/coreui@2.1.16/dist/js/coreui.min.js"></script>
-    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
     <script src="//cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
     <script src="//cdn.datatables.net/buttons/1.2.4/js/buttons.flash.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.html5.min.js"></script>
@@ -122,8 +122,8 @@
   let colvisButtonTrans = '{{ trans('global.datatables.colvis') }}'
 
   let languages = {
-    'en': 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/English.json',
-    'zh_TW': '../js/plugins/datatables/i18n/Chinese-traditional.json'
+    'en': 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/en-GB.json',
+    'zh_TW': 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/zh-HANT.json'
   };
 
   $.extend(true, $.fn.dataTable.Buttons.defaults.dom.button, { className: 'btn' })

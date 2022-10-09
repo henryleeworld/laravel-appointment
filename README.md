@@ -1,6 +1,6 @@
-# Laravel 8 預約服務
+# Laravel 9 預約服務
 
-創造預約及管理高價值的服務，直接同步時段，線上清楚透明，可以看到所有的詳細的預約資訊與數據。Laravel 8 預約服務主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+創造預約及管理高價值的服務，直接同步時段，線上清楚透明，可以看到所有的詳細的預約資訊與數據。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
